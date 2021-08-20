@@ -90,7 +90,7 @@ form input {
 }
 
 .item .title {
-    color: #404041;width: 65%;
+    color: #404041;
     margin: 20px 10px 0 0;
     font-size: 1.8rem;
     font-weight: 400;
@@ -99,7 +99,7 @@ form input {
 .view-bin {
     text-decoration: none;
     text-align: center;
-    width: 35%;
+    width: 130px;
     background-color: #404041;
     color: whitesmoke;
     padding: 10px 0;
@@ -116,4 +116,10 @@ form input {
     font-size: 1.2rem;
     letter-spacing: 0.05rem;
     line-height: 2rem;
+}
+#intro-text{
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    font-style: italic;
 }

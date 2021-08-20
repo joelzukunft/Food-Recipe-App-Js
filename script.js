@@ -3,6 +3,18 @@ const searchResult = document.querySelector('.search');
 const container = document.querySelector('.container');
 let userQuery = '';
 
+let i = 0;
+let txt="Search Your Food Item Recipe Here...";
+let speed = 100;
+
+function typeWriter(){
+    if(i<txt.length){
+        document.getElementById("intro-text").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    }
+}
+
 const ID ='6e657aaa';
 const KEY = '33ff06bd18f888120ba1053fb71adc08';
 
